@@ -159,7 +159,7 @@ const sectionObserver = new IntersectionObserver(handleSectionsIntersection, {
 
 allSections.forEach((section) => {
   sectionObserver.observe(section);
-  // section.classList.add("section--hidden");
+  section.classList.add("section--hidden");
 });
 
 function handleSectionsIntersection(entries, observer) {
